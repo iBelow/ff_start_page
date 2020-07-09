@@ -2732,3 +2732,23 @@ footer ul li {
 
 
 /*# sourceMappingURL=main.css.map */
+
+.time-wrapper {
+    position: relative;
+    width: calc(100vw - 17px);
+    height: 100vh;
+}
+
+.time-wrapper #time {
+    background-image: linear-gradient(to bottom right, rgb(255, 64, 0), rgb(252, 58, 23), rgb(250, 52, 46), rgb(247, 47, 70), rgb(244, 41, 93), rgb(241, 35, 116), rgb(239, 29, 139), rgb(236, 23, 162), rgb(233, 17, 185), rgb(230, 12, 209), rgb(228, 6, 232), rgb(225, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6vw;
+    line-height: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 20px;
+}
