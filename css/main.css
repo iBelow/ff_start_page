@@ -1330,7 +1330,8 @@ a.menu-toggle {
  */
 
 #intro {
-    background: #293241 no-repeat center;
+    /*background: #293241 no-repeat center;*/
+    background-image: linear-gradient(to bottom, rgb(26, 25, 26), rgb(30, 24, 29), rgb(34, 24, 33), rgb(38, 23, 36), rgb(42, 22, 39), rgb(46, 21, 42), rgb(51, 21, 46), rgb(55, 20, 49), rgb(59, 19, 52), rgb(63, 18, 55), rgb(67, 18, 59), rgb(71, 17, 62));
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
