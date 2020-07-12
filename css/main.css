@@ -79,6 +79,7 @@ body {
     font-size: 1.6rem;
     line-height: 3rem;
     color: #737373;
+    overflow: hidden;
 }
 
 
